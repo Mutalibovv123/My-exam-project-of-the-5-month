@@ -1,0 +1,284 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+    font-family: 'Roboto';
+    background-color: #cff2f2;
+    ;
+}
+
+#header {
+    width: 1440px;
+    height: 156px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form {
+    width: 450px;
+    height: 660px;
+    border: 1px solid rgb(201, 201, 201);
+    box-shadow: 0px 2px 34px 7px rgba (34, 60, 80, 0.2);
+    border-radius: 10px;
+
+    padding: 20px;
+    background-color: white;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px;
+}
+
+.checkboxes {
+    gap: 4px;
+}
+
+#new {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+#featured {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+#time {
+    width: 80px;
+    height: 30px;
+}
+
+#job-type {
+    width: 80px;
+    height: 30px;
+}
+
+#location {
+    width: 80px;
+    height: 30px;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.Skills input {
+    width: 20px;
+    height: 20px;
+}
+
+.Skills {
+    gap: 10px;
+    display: flex;
+}
+
+#button {
+    width: 450px;
+    height: 50px;
+    margin-left: 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.checkboxes {
+    gap: 10px;
+}
+
+.block {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+     
+}
+
+.card {
+    display: flex;           
+    justify-content: space-between; 
+    width: 1110px;
+    height: 152px;     
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+.card-left {
+display: flex;
+width: 50%;
+}
+
+.image {
+    width: 88px;          
+    height: 88px;         
+    border-radius: 50%;    
+    overflow: hidden;    
+    position: relative;
+    right: 20px;
+    top: 35px;
+
+}
+.photosnap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 31px;
+    margin-right: 40px;
+
+}
+.day-time {
+    display: flex;
+    margin-top: 7px;
+   
+
+}
+.type {
+    display: flex;
+}
+
+.scripts {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 10px;
+}
+
+.photosnap h3 {
+    font-family: "League Spartan";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16.56px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  #5CA5A5; 
+    margin-top: 18px;
+
+}
+
+#new-but {
+    background-color: #5CA5A5;
+     border: 1px solid  #5CA5A5;
+     width: 51px;
+     height: 24px;
+     font-family: "League Spartan";
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: -0.10769230872392654px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border-radius: 20px;
+color: white; 
+padding-top: 13px; 
+padding-left: 8px;
+padding-right: 8px;
+padding-bottom: 3px;
+}
+
+#feat {
+    width: 79px;
+    height: 24px;
+    font-family: "League Spartan";
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: -0.10769230872392654px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+background-color: black;
+padding-top: 15px; 
+padding-left: 20px;
+padding-right: 8px;
+padding-bottom: 3px;
+border-radius: 20px;
+
+}
+
+.type {
+    font-family: "League Spartan";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.day-time {
+    font-family: "League Spartan";
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.13846154510974884px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  #7C8F8F;
+gap: 41px;
+width: 128px;
+
+}
+
+.card-right {
+    display: flex;
+    justify-content: space-between;
+    width: 45%; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 40px;
+    gap: 16px;
+}
+
+.card-right p {
+    width: 81px;
+    height: 32px;
+    border: 1px solid rgb(254, 252, 252);
+    background-color: #ecf8f8;
+    font-family: "League Spartan";
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.1230769231915474px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #5CA5A5;
+border-radius: 10px;
+padding-top: 9px;
+padding-bottom: 3px;
+padding-right: 8px;
+padding-left: 12px;
+}
+.delete {
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-top: 130px;
+}
+.card-left {
+    margin-left: 20px;
+}
+
